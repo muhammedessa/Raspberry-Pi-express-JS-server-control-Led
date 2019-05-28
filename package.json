@@ -1,0 +1,19 @@
+{
+  "name": "raspberrypi-expressjs-led",
+  "version": "1.0.0",
+  "description": "Raspberry Pi web server using expressjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rpi"
+  ],
+  "author": "Muhammed Essa Hameed",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "*",
+    "express": "*",
+    "rpi-gpio": "*"
+  }
+}

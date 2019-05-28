@@ -1,0 +1,48 @@
+<meta name="viewport" content="width=500, initial-scale=1"> <!--This line of code is for mobile responsive -->
+
+<div  class="myClass">
+ <h1> Node js Control LED</h1>
+  <form action="/led/on" method="post">
+    <button type="submit" class="button">LED On </button>
+      <button type="submit" formmethod="post" formaction="/led/off" class="button button3">LED Off</button>
+  </form>
+
+  <a>Led Status: <%=status %></a>
+</div>
+
+ 
+<!-- The below code is only for look and styling -->
+<style>
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
+
+.myClass {
+  background-color: #34495e; /* Green */
+  border: none;
+  color: white;
+  padding:  32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; 
+  cursor: pointer;
+  margin: auto;
+  width: 50%;
+}
+
+</style>
